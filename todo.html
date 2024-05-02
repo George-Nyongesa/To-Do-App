@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do app</title>
+    <!--linking the stylesheet file-->
     <link rel="stylesheet" href="todo.css">
 </head>
 <body>
@@ -11,9 +12,12 @@
         <div class="todo">
             <h2>To-Do App <img src="todo.webp" alt=""></h2>
             <div class="row">
+                <!--the textbox where the do items will be written-->
                 <input type="text" id="input-box" placeholder="Type text here">
+                <!--the  add button that adds the todo tasks on click-->
                 <button onclick="addTask()">Add</button>
             </div>
+            <!--the unordered list where the to do items will be appended-->
             <ul id="list-container">
                 <!--<li class="checked">Task 1</li>
                 <li>Task 2</li>
@@ -23,6 +27,7 @@
         </div>
 
     </div>
+    <!--linking the Javascript file-->
     <script src="todo.js"></script>
 </body>
 </html>
